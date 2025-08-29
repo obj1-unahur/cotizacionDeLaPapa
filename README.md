@@ -12,12 +12,7 @@ Se cuenta con la información de toda la producción de papa de un conocido paí
 
 ## Producción
 
-El costo de producción depende de la calidad y cantidad de la cosecha. La cantidad de unidades cosechadas es un valor determinado.  
-Respecto de la calidad:
-
-- Si la papa es **buena** → $3 por cada unidad.  
-- Si es **regular** → se usa como importe unitario la cotización que da el *Protectorado Especial de Productos de Exportación* (**PEPE**).  
-- La calidad **premium** → tiene un importe por unidad **50% mayor** a la calidad buena.  
+El costo de producción depende de la calidad y cantidad de la cosecha. La cantidad de unidades cosechadas es un valor determinado. Respecto de la calidad, si se considera que la papa es buena son $3 por cada unidad; pero si es regular se usa como importe unitario la cotización que da el "Protectorado Especial de Productos de Exportación" (PEPE). La calidad premium tiene un importe por unidad 50% mayor a la calidad buena.
 
 ---
 
@@ -44,7 +39,7 @@ El importe de los derechos de exportación, también llamados *retenciones*, se 
 
 ## Batería de tests
 
-Para conocer el importe total de exportación, la cantidad de combinaciones posibles es inmensa. Parecería que las clases de equivalencia son muchísimas. Sin embargo, la teoría de **Testeo Unitario** nos dice que si probamos cada parte por separado, no es necesario probar todas las combinaciones.  
+Para conocer el importe total de exportación, la cantidad de combinaciones posibles es inmensa. Parecería que las clases de equivalencia son muchísimas. Sin embargo, la teoría de **Testeo Unitario** nos dice que *si probamos cada parte por separado, no es necesario probar todas las combinaciones.*  
 
 👉 [Prueba unitaria - Wikipedia](https://es.m.wikipedia.org/wiki/Prueba_unitaria)  
 
@@ -60,16 +55,8 @@ Como si no fuera suficiente, se decidió contemplar otros productos de exportaci
 
 ### Batata
 
-El importe total de la batata se calcula a partir de un **costo de producción preestablecido** (no hace falta considerar ni la cantidad ni la calidad) al que se le suman los **impuestos**, pero no está sujeta a derechos de exportación.  
-
-Los impuestos son:  
-- **Simple**  
-- **Con Garantía**  
-- **Compuesto**: Inventar una nueva forma de calcularlo que requiera de algún nuevo objeto o mensaje, pero que no sea necesario modificar nada de lo realizado anteriormente.  
+El importe total de la batata se calcula a partir de un costo de producción preestablecido, (no hace falta considerar ni la cantidad ni la calidad) al que se le suman los impuestos, pero no está sujeta a derechos de exportación. Los impuestos son el simple y el de garantía, al igual que la papa, y se agrega una nueva posible modalidad: el impuesto compuesto (inventar una nueva forma de calcularlo que requiera de algún nuevo objeto o mensaje, pero que no sea necesario modificar nada de lo realizado anteriormente)
 
 ### Zapallo
 
-El importe total del zapallo se calcula como:  
-
-- El **costo de producción** surge de multiplicar la cantidad cultivada por la cotización de **PEPE**.  
-- Más los **derechos de exportación**, cuyas alternativas son las mismas que para la papa, pero siempre a **mitad de su valor**.  
+El importe total del zapallo se calcula como el costo de producción, que surge de multiplicar la cantidad cultivada por la cotización de PEPE, más los derechos de exportación cuyas alternativas son las mismas que para la papa, pero siempre a mitad de su valor.
